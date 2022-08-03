@@ -22,11 +22,11 @@ function firstQuestion(){
     Swal.fire({
         title: CONFIG.introTitle,
         text: CONFIG.introDesc,
-        imageUrl: 'img/khanh_hoa.jpg',
-        imageWidth: 200,
-        imageHeight: 300,
+        imageUrl: 'img/IMG_5855.JPG',
+        imageWidth: 400,
+        // imageHeight: 300,
         background: '#fff url("img/iput-bg.jpg")',
-        imageAlt: 'Custom image',
+        imageAlt: 'HHS Đội Nón :>',
         confirmButtonText: CONFIG.btnIntro
       }).then(function(){
         $('.content').show(200);
